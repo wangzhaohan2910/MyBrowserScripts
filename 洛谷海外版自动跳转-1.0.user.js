@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         洛谷海外版自动跳转
-// @license      MIT
+// @license      The Unlicense
 // @version      1.0
 // @description  洛谷海外版自动跳转
 // @author       wangzhaohan2910
@@ -10,4 +10,5 @@ var url = window.location.href;
 if (url.startsWith("https://www.luogu.com/article/"))
   window.location.href = url.replace("https://www.luogu.com/article/", "https://www.luogu.me/article/");
 if (url.startsWith("https://www.luogu.com/paste/"))
+
   window.location.href = url.replace("https://www.luogu.com/paste/", "https://www.luogu.me/paste/");
