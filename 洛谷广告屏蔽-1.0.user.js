@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         洛谷广告屏蔽
-// @license      MIT
+// @license      The Unlicense
 // @version      1.0
 // @description  洛谷广告屏蔽
 // @author       wangzhaohan2910
