@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      3.5
 // @description  Improve the Hydro & Vijos interface with custom settings!
-// @author       wangzhaohan2910
+// @author       Cheerimy, wangzhaohan2910
 // @match        *://hydro.ac/*
 // @match        *://goj.wiki/*
 // @match        *://oiclass.com/*
