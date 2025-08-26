@@ -8,9 +8,12 @@
 // @match        https://www.luogu.me/*
 // @match        https://dev.luogu.me/*
 // ==/UserScript==
-setInterval(() => {document.querySelectorAll("div[data-v-0a593618]").forEach(el => {el.remove();});
-document.querySelectorAll("div[data-v-fdcd5a58]").forEach(el => {el.remove();});}, 1);
-document.getElementsByClassName('am-u-md-8')[0].remove();
-document.getElementsByClassName('am-u-md-4 lg-punch am-text-center')[0].style = 'position: relative; left:33%';
-document.querySelector("div#propaganda.card.propaganda.shadow").remove()
-document.querySelector("div#propaganda-section.propaganda-section").remove()
+try
+{
+  setInterval(() => {document.querySelectorAll("div[data-v-0a593618]").forEach(el => {el.remove();});
+  document.querySelectorAll("div[data-v-fdcd5a58]").forEach(el => {el.remove();});}, 1);
+  document.getElementsByClassName('am-u-md-8')[0].remove();
+  document.getElementsByClassName('am-u-md-4 lg-punch am-text-center')[0].style = 'position: relative; left:33%';
+} catch (error) {}
+try { document.querySelector("div#propaganda.card.propaganda.shadow").remove(); } catch (error) {}
+try { document.querySelector("div#propaganda-section.propaganda-section").remove(); } catch (error) {}
