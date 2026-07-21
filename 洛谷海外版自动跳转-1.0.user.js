@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         洛谷海外版自动跳转
-// @license      The Unlicense
+// @license      CC0
 // @version      1.0
 // @description  洛谷海外版自动跳转
 // @author       wangzhaohan2910
